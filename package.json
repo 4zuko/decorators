@@ -1,0 +1,28 @@
+{
+  "name": "decorators",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "typescript": "^5.8.3",
+    "undici-types": "^6.21.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:debug": "node --inspect-brk dist/index.js",
+    "generate:package": "npm init -y",
+    "generate:tsconfig": "npx tsc --init"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
